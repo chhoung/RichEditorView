@@ -15,6 +15,8 @@ public class RichEditorWebView: WKWebView {
         return accessoryView
     }
     
+    init() {}
+    
     init(frame: CGRect) {
         fatalError("init(frame:) has not been implemented")
     }
